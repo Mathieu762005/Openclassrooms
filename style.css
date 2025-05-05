@@ -16,7 +16,7 @@
 }
 body {
     width: 100%;
-    height: 100vh;
+    height: 150vh;
 }
 
 
@@ -130,7 +130,6 @@ header {
 
 .centrage2 {
     display: flex;
-    align-items: center;
     width: 80%;
 
 }
@@ -149,7 +148,6 @@ header {
 }
 
 .centrage2 img {
-    padding-bottom: 3rem;
 }
 
 /* PARTIE HAUT DU MAIN */
@@ -157,20 +155,30 @@ header {
 .deuxchoix {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     width: 100%;
+    background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 60%, rgba(255, 250, 238, 1) 60%);
 }
 
 .centrage3 {
     display: flex;
-    border: 1px solid black;
     width: 80%;
 }
 
 .e1 {
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
+}
+
+.e1 h2 {
+    padding-bottom: 0.5rem;
+}
+
+.e1 p {
+    padding-bottom: 0.7rem;
+}
+
+.e1 button {
+    margin-right: 2rem;
 }
 
 .e1 button {
@@ -201,11 +209,58 @@ header {
 }
 
 .etudiants {
-    background-color: #fdfbe0;
+    background: linear-gradient(0deg,rgba(253, 251, 224, 1) 0%, rgba(253, 251, 224, 1) 95%, rgba(245, 205, 55, 1) 95%);
     padding: 2rem;
+    margin-right: 2rem;
+    border-radius: 5px;
 }
 
 .Employeurs {
-    background-color: #ebeefb;
+    background: linear-gradient(0deg,rgba(235, 238, 251, 1) 0%, rgba(235, 238, 251, 1) 95%, rgba(157, 178, 243, 1) 95%);
     padding: 2rem;
+    margin-left: 2rem;
+    border-radius: 5px;
 }
+
+/* PARTIE MILIEUX DU MAIN */
+
+.troispartie {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.centrage4 {
+    width: 80%;
+    border: 1px solid black;
+
+}
+
+.titreh3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    padding-top: 3rem;
+}
+
+.titreh3 h3 {
+    font-size: 25px;
+    padding-bottom: 1rem;
+}
+
+.explicationrangé4 {
+    display: flex;
+}
+
+.explication {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    flex-direction: column;
+}
+
+
