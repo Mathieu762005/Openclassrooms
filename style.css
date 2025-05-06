@@ -1,11 +1,3 @@
-.inter-<uniquifier> {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
-
-
 * {
     padding: 0px;
     margin: 0px;
@@ -16,7 +8,7 @@
 }
 body {
     width: 100%;
-    height: 150vh;
+    height: 180vh;
 }
 
 
@@ -177,13 +169,11 @@ header {
     padding-bottom: 0.7rem;
 }
 
-.e1 button {
+.e1, button {
     margin-right: 2rem;
-}
-
-.e1 button {
     border: 0px;
     font-size: 20px;
+    background: none;
 }
 
 .violet {
@@ -197,7 +187,8 @@ header {
 .transparent {
     color: #7451eb;
     font-weight: bold;
-    transform: 0.3s;
+    transition: 0.3s;
+    padding: 5px 10px;
 }
 
 .transparent:hover {
@@ -228,6 +219,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 3rem;
 }
 
 .centrage4 {
@@ -271,4 +263,81 @@ header {
 }
 
 /* PARTIE SAVOIR FAIRE */
+
+.titreh4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fffaee;
+}
+
+.centrage6 {
+    font-size: 30px;
+    width: 80%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.dernièrepartie {
+    background-color: #fffaee;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.centrage5 {
+    display: flex;
+    width: 80%;
+}
+
+h5 {
+    font-size: 20px;
+    padding-bottom: 1rem;
+}
+
+.dernièrepartie button {
+    margin-top: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #7451eb;
+    font-size: 20px;
+    border: 1px solid #7451eb;
+    margin-bottom: 3rem;
+    background:none;
+}
+
+.dernièrepartie i {
+    font-size: 20px;
+    display: inline;
+    margin-right: 0.5rem;
+}
+
+.dernièrepartie p {
+    margin-bottom: 1rem;
+
+}
+
+.partie01gauche {
+    width: 50%;
+}
+
+.partie01droite {
+    width: 50%;
+}
+
+.bouton0102 {
+    border: 0px;
+    border-radius: 0px;
+    transition: 0.3s;
+}
+
+.aze:hover {
+    transition: 0.3s;
+    background-color: #7551eb36;
+}
+
+.qsd {
+    border: 0px solid;
+}
+
 
