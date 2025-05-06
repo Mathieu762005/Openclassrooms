@@ -259,8 +259,20 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border: 1px solid black;
     flex-direction: column;
 }
+
+.explication img {
+    padding-bottom: 1.5rem;
+    padding-top: 2.5rem;
+}
+
+.explication h4 {
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+
 
 
