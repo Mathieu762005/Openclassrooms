@@ -40,12 +40,14 @@ header {
     font-weight: bold;
     font-size: 15px;
     transition: 0.3s;
+    padding: 10px 20px;
+    cursor: pointer;
 }
 
 .hautdepage button:hover {
     background: white;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.3s;
 }
 
@@ -78,9 +80,36 @@ header {
 
 .partiegauche a {
     text-decoration: none;
-    color: black;
-    padding: 0px 20px;
+    color: rgb(70, 70, 70);
+    padding: 5px 15px;
+    margin-left: 10px;
+    transition: 0.3s;
 }
+
+.partiegauche a:hover {
+    padding: 5px 18px;
+    background-color: #7551eb36;
+    transition: 0.3s;
+    border-radius: 5px;
+    color: #7451eb;
+
+}
+
+.partiegauche .wxc:hover {
+    color: #7451eb;
+    background: none;
+}
+
+.redline{
+    width:1px;
+    height:3.3%;
+    position:absolute;
+    background-color: rgb(202, 202, 202);
+    margin:0;
+    padding:0;
+    left:810px;
+     
+    }
 
 
 .partiedroite {
@@ -88,6 +117,12 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+.partiedroite, img {
+    cursor: pointer;
 }
 
 .partiedroite i {
@@ -108,6 +143,10 @@ header {
     padding: 5px;
     border-radius: 200px;
     margin-right: 0.5rem;
+}
+
+.compte {
+    cursor: pointer;
 }
 
 /* NAVBAR */
@@ -137,9 +176,6 @@ header {
 .centrage2 .h1 h1 {
     font-size: 40px;
     margin-bottom: 1rem;
-}
-
-.centrage2 img {
 }
 
 /* PARTIE HAUT DU MAIN */
@@ -182,6 +218,7 @@ header {
     border-radius: 5px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .transparent {
@@ -189,6 +226,7 @@ header {
     font-weight: bold;
     transition: 0.3s;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 .transparent:hover {
@@ -295,7 +333,7 @@ h5 {
     padding-bottom: 1rem;
 }
 
-.dernièrepartie button {
+.dernièrepartie .aze {
     margin-top: 1rem;
     padding: 5px 10px;
     border-radius: 5px;
@@ -304,6 +342,11 @@ h5 {
     border: 1px solid #7451eb;
     margin-bottom: 3rem;
     background:none;
+    font-weight: bold;
+}
+
+.aze {
+    cursor: pointer;
 }
 
 .dernièrepartie i {
@@ -325,12 +368,6 @@ h5 {
     width: 50%;
 }
 
-.bouton0102 {
-    border: 0px;
-    border-radius: 0px;
-    transition: 0.3s;
-}
-
 .aze:hover {
     transition: 0.3s;
     background-color: #7551eb36;
@@ -338,6 +375,19 @@ h5 {
 
 .qsd {
     border: 0px solid;
+    font-weight: bold;
+    font-size: 20px;
+    color: #7451eb;
+    transition: 0.3s;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.qsd:hover {
+    transition: 0.3s;
+    background-color: #7551eb36;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 
