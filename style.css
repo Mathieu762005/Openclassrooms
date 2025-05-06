@@ -227,13 +227,11 @@ header {
 .troispartie {
     display: flex;
     justify-content: center;
-    border: 1px solid black;
     width: 100%;
 }
 
 .centrage4 {
     width: 80%;
-    border: 1px solid black;
 
 }
 
@@ -242,7 +240,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
     padding-top: 3rem;
 }
 
@@ -260,7 +257,6 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: 1px solid black;
     flex-direction: column;
 }
 
@@ -274,5 +270,5 @@ header {
     font-size: 20px;
 }
 
-
+/* PARTIE SAVOIR FAIRE */
 
