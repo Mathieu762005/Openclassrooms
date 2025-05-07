@@ -34,6 +34,10 @@ header {
     background-color: #9cc7f2;
 }
 
+.partiehaute img {
+    margin-left: 6rem;
+}
+
 .hautdepage button {
     border: 0px;
     background-color: #9cc7f2;
