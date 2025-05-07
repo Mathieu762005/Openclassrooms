@@ -82,6 +82,10 @@ header {
     height: 100%;
 }
 
+.uiop {
+    font-size: 10px;
+}
+
 .partiegauche a {
     text-decoration: none;
     color: rgb(70, 70, 70);
@@ -263,7 +267,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .centrage4 {
