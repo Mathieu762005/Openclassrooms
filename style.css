@@ -157,6 +157,10 @@ header {
     cursor: pointer;
 }
 
+.compte:hover {
+    background-color: #7551eb2d;
+}
+
 /* NAVBAR */
 
 .partiehaute {
